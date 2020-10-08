@@ -2,7 +2,7 @@
 layout: default
 title: Westerosi Settlement
 date: 2017-06-08
-tags: [Southshire]
+tags: [Westeros]
 ---
 
 When Orinnari started the game he began constructing a home in Westeros.
