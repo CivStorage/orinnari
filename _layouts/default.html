@@ -1,0 +1,63 @@
+---
+layout: compress
+---
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            pre {
+                white-space: pre-wrap;
+            }
+            * {
+                font-family: monospace;
+                background: #E7E7E7;
+                color: #000;
+            }
+            a {
+                color: #69F;
+                text-decoration: none;
+            }
+            a:visited {
+                color: #69F;
+            }
+            a:hover {
+                color: #96F;
+            }
+            article {
+                max-width: 900px;
+            }
+            img {
+                max-width: 900px;
+            }
+            video {
+                max-width: 900px;
+            }
+            blockquote {
+                border-left: 1px solid #6b6b6b;
+                padding-left: 20px;
+                margin-left: 20px;
+            }
+            table, th, td {
+                border: 1px solid #000;
+            }
+            @media only screen and (max-width: 600px) {
+                article {
+                    max-width: 600px;
+                }
+                img {
+                    max-width: 600px;
+                }
+                video {
+                    max-width: 600px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </article>
+    </body>
+</html>
