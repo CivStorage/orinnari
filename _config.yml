@@ -1,4 +1,4 @@
-baseurl: "/archive"
+baseurl: "/orinnari"
 theme:
 timezone: Etc/UTC
 encoding: utf-8
